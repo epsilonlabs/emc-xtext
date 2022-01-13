@@ -2,13 +2,6 @@
 <?eclipse version="3.4"?>
 <plugin>
    <extension
-         point="org.eclipse.epsilon.common.dt.tool">
-      <tool
-            class="org.eclipse.epsilon.emc.xtext.ClasspathURIHandler"
-            defaultName="classpathURIHandler">
-      </tool>
-   </extension>
-   <extension
          point="org.eclipse.emf.ecore.protocol_parser">
       <parser
             class="org.eclipse.epsilon.emc.xtext.ClasspathXtextResourceFactory"
