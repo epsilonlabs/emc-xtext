@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Classpath URI Handler
+Bundle-SymbolicName: org.eclipse.epsilon.emc.xtext;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: org.eclipse.epsilon.examples.classpathurihandler
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.xtext,
+ org.eclipse.epsilon.emc.emf,
+ org.eclipse.epsilon.emc.emf.dt,
+ org.eclipse.epsilon.common.dt,
+ org.eclipse.emf.ecore,
+ org.eclipse.emf.common
+Export-Package: org.eclipse.epsilon.emc.xtext

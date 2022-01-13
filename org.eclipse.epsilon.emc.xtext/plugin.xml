@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.epsilon.common.dt.tool">
+      <tool
+            class="org.eclipse.epsilon.emc.xtext.ClasspathURIHandler"
+            defaultName="classpathURIHandler">
+      </tool>
+   </extension>
+   <extension
+         point="org.eclipse.emf.ecore.protocol_parser">
+      <parser
+            class="org.eclipse.epsilon.emc.xtext.ClasspathXtextResourceFactory"
+            protocolName="classpath">
+      </parser>
+   </extension>
+   <extension point="org.eclipse.epsilon.common.dt.modelType">
+      <modelType
+            class="org.eclipse.epsilon.emc.xtext.XtextGrammar"
+            dialog="org.eclipse.epsilon.emc.xtext.XtextGrammarConfigurationDialog"
+            label="Xtext Grammar"
+            icon="icons/xtext.gif"
+            stable="true"
+            type="Xtext"/>
+   </extension>
+</plugin>
